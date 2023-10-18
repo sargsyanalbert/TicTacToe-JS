@@ -5,14 +5,18 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 251, 0);
+    background-color: rgba(240, 240, 240, 0.959);
 }
 
 header{
-    background-color: blueviolet;
+    background-color: rgb(65, 65, 65);
     text-align: center;
     padding: 40px;
     border-bottom: 1px solid;
+}
+
+h1 {
+    color: white;
 }
 
 .container{
@@ -41,6 +45,7 @@ header{
     width: 100px;
     height: 100px;
     border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .score{
@@ -52,18 +57,18 @@ header{
 
 .restart{
     margin-top: 10px;
-    background-color: rgb(162, 0, 255);
-    border: 1px solid rgb(162, 0, 255);
+    background-color: rgb(65, 65, 65);
+    border: 1px solid rgb(65, 65, 65);
+    color: white;
     border-radius: 5px;
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
-    transition: all ease 0,5s;
+    transition: all ease 0.5s;
 }
 
 .restart:hover{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 251, 0);
     border: 1px solid rgb(0, 0, 0); 
     border-radius: 5px
 }

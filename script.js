@@ -35,7 +35,7 @@ for (let i = 0; i < cell.length; i++) {
         } else if (cell[i].innerHTML === "") {
             addCellsPlayer2(i);
         }
-        //checkWinner();
+        checkWinner();
     })
 }
 
